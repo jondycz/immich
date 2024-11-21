@@ -52,17 +52,10 @@ android {
         versionName flutterVersionName
     }
 
-   signingConfigs {
-   }
-
     buildTypes {
         debug {
             applicationIdSuffix '.debug'
             versionNameSuffix '-DEBUG'
-        }
-
-        release {
-            signingConfig signingConfigs.release
         }
     }
     namespace 'app.alextran.immich'
